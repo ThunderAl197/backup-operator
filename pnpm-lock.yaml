@@ -1,0 +1,20 @@
+lockfileVersion: 5.4
+
+specifiers:
+  commander: ^10.0.0
+  nested-error-stacks: ^2.1.1
+
+dependencies:
+  commander: 10.0.0
+  nested-error-stacks: 2.1.1
+
+packages:
+
+  /commander/10.0.0:
+    resolution: { integrity: sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA== }
+    engines: { node: '>=14' }
+    dev: false
+
+  /nested-error-stacks/2.1.1:
+    resolution: { integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw== }
+    dev: false

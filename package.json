@@ -1,0 +1,24 @@
+{
+  "name": "@thunderal/backup-operator",
+  "version": "1.0.0",
+  "description": "Persistent data backup",
+  "main": "src/index.mjs",
+  "type": "module",
+  "author": "ThunderAl <community@thunderal.net>",
+  "license": "UNLICENCED",
+  "bin": {
+    "backup-operator": "start.mjs"
+  },
+  "engines": {
+    "node": ">=18.14"
+  },
+  "scripts": {
+    "start": "node start.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@7.27.0",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nested-error-stacks": "^2.1.1"
+  }
+}
